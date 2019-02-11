@@ -1,0 +1,43 @@
+.caixa_chat{
+    width: 400px;
+    height: 500px;
+    border: solid 1px black;
+    background-color: #d8e7ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa_envio{
+    width: 100%;
+    height: 100px;
+    background-color: #97a6bf;
+    
+}
+
+.caixa_conversa{
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+
+}
+
+.mensagem_enviada{
+    width: 150px;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 250px;
+    background-color: #fff9f9;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+
+.mensagem_recebida{
+    width: 150px;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 0px;
+    background-color: #fff9f9;
+    margin-bottom: 10px;
+}
